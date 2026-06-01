@@ -1,0 +1,27 @@
+---
+title: "Global Sustainable Energy Trends (2000–2020)"
+author:
+- Shakshi Shah
+- Annamalai Vikash Raam Manoj
+- Siyuan Yin
+- Xuanning Zhang
+format:
+  html: default
+  pdf: default
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+# Executive Summary
+
+# Introduction
+
+# Methodology
+
+# Results
+
+# Discussion and Recommendations
+
+# References
