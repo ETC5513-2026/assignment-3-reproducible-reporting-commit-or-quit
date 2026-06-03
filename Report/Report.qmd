@@ -21,40 +21,6 @@ execute:
 # Methodology
 
 # Results
-@fig-co2-trend shows that carbon dioxide emissions in these four economies changed significantly between 2000 and 2020. China saw the most rapid growth, with emissions rising from approximately 3.3 million kt to over 10 million kt. The United States, meanwhile, showed a gradual decline, falling from about 5.9 million metric tons to 4.8 million metric tons. India’s emissions grew steadily, while Australia’s remained at a relatively low and stable level.
-
-```{r}
-#| label: fig-co2-trend
-#| fig-cap: "CO₂ Emissions Trends in Selected Economies (2000–2020)"
-#| echo: false
-knitr::include_graphics(here::here("Figures/co2_trend.png"))
-```
-
-Data from @fig-renewable-trend shows that India consistently had the highest share of renewable energy throughout the study period, though this share declined from 47% in 2000 to 33% in 2019. China’s share of renewable energy initially fell sharply but then rebounded slightly, while Australia and the United States saw a modest increase to around 10%.
-```{r}
-#| label: fig-renewable-trend
-#| fig-cap: "Renewable Energy Adoption Trends in Selected Economies (2000–2020)"
-#| echo: false
-knitr::include_graphics(here::here("Figures/renewable_trend.png"))
-```
-
-As shown in Figures @fig-scatter and @fig-facet, the increase in the share of renewable energy in 2019 did not always correspond to a reduction in emissions, suggesting that economic scale has a greater impact on a country’s emission levels than the adoption of renewable energy.
-
-```{r}
-#| label: fig-scatter
-#| fig-cap: "Relationship Between Renewable Energy Share and CO₂ Emissions by Country in 2019"
-#| echo: false
-knitr::include_graphics(here::here("Figures/scatter_2019.png"))
-```
-
-```{r}
-#| label: fig-facet
-#| fig-cap: "CO₂ Emissions and Renewable Energy Share by Country in 2019"
-#| echo: false
-knitr::include_graphics(here::here("Figures/facet_2019.png"))
-```
-
-
 
 # Discussion and Recommendations
 
