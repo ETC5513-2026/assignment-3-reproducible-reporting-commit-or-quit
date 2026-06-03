@@ -24,4 +24,19 @@ execute:
 
 # Discussion and Recommendations
 
+## Discussion
+The results show that the share of renewable energy and carbon emissions do not always move in the same direction. India had the highest share of renewable energy in 2019, but its CO2 emissions continued to rise during the study period. China’s share of renewable energy rebounded after 2012, yet it remained the country with the highest CO2 emissions among the four. In contrast, CO2 emissions in the United States declined overall, while Australia’s emissions were lower and relatively stable.
+
+This indicates that carbon emissions are not solely influenced by the share of renewable energy. A country’s size, population, industrial activity, economic growth, and reliance on fossil fuels all affect total emissions. For example, China and India have large populations and high energy demand, so emissions may continue to rise even as renewable energy use increases. The situations in the United States and Australia also demonstrate that a country’s energy mix and economic scale influence emission trends.
+
+## Recommendations
+Based on these findings, major economies should continue to invest in renewable energy infrastructure, such as solar, wind, and hydroelectric power. Governments should also improve grid infrastructure and energy storage systems to enable the more stable and widespread use of renewable energy.
+
+Finally, renewable energy policies should be integrated with broader low-carbon policies, particularly in high-emission sectors such as power generation, transportation, and heavy industry. This is because simply increasing the use of renewable energy may not be sufficient to significantly reduce total CO2 emissions.
+
+## Closing
+Based on these findings, major economies should continue investing in renewable energy infrastructure such as solar, wind, and hydro power. Governments should also improve grid infrastructure and energy storage so renewable energy can be used more reliably. This is important because high renewable energy integration requires stronger grid systems and storage support [@alam2020renewable].
+
+Finally, renewable energy policies should be combined with wider low-carbon policies in high-emission sectors such as electricity generation, transport, and heavy industry. This is important because renewable energy growth alone may not be enough to reduce total CO2 emissions.
+
 # References
