@@ -20,6 +20,31 @@ execute:
 
 # Methodology
 
+The variables selected for the analysis are summarised in @tbl-vars.
+
+| Variable | Type | Purpose |
+|-----------|-----------|-----------|
+| Renewable energy share in total final energy consumption (%) | Percentage (%) | Measures renewable energy adoption |
+| CO₂ emissions | Kilotonnes (kt) | Measures carbon emission levels |
+
+Table: Key variables used in the analysis. {#tbl-vars}
+
+The analytical workflow used in this study is illustrated in @fig-workflow.
+
+```{r}
+#| label: fig-workflow
+#| fig-cap: "Data preparation and analysis workflow."
+#| echo: false
+
+knitr::include_graphics("../Figures/methodology_workflow.png")
+```
+
+The Global Sustainable Energy dataset was used for this analysis. The dataset contains energy and environmental indicators for 176 countries between 2000 and 2020. Four countries were selected for comparison: the United States, China, India and Australia. These countries were chosen because they represent major economies with differing patterns of energy consumption and renewable energy adoption.
+
+The analysis focused on renewable energy share in total final energy consumption as an indicator of renewable energy adoption and carbon dioxide (CO₂) emissions as an indicator of environmental impact. Data were imported into R and cleaned using the `tidyverse` and `janitor` packages. Column names were standardised and only variables relevant to the research question were retained. Missing values were inspected and observations with incomplete data were excluded where necessary. Since selected variables contained missing observations for 2020, the most recent complete observations available in 2019 were used for summary comparisons.
+
+Comparative trend analysis was performed using visualisations created with `ggplot2`. Renewable energy adoption and CO₂ emission trends were examined across the selected countries between 2000 and 2020. Additional comparative visualisations were created to explore differences in renewable energy adoption and emission levels among the selected economies.
+
 # Results
 
 # Discussion and Recommendations
