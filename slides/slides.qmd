@@ -1,0 +1,22 @@
+---
+title: "Global Sustainable Energy Trends (2000–2020)"
+subtitle: "commit or quit"
+author:
+  - Shakshi Shah
+  - Annamalai Vikash Raam Manoj
+  - Siyuan Yin
+  - Xuanning Zhang
+format:
+  revealjs:
+    theme: simple
+    slide-number: true
+    transition: fade
+    incremental: false
+    embed-resources: true
+    preview-links: false
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
