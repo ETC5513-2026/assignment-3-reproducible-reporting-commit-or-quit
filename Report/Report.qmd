@@ -36,6 +36,10 @@ The findings indicate that growth in renewable energy adoption was not consisten
 
 # Introduction
 
+The transition towards renewable energy has become an important strategy for addressing climate change and reducing greenhouse gas emissions. Many countries have increased investments in renewable energy sources such as solar, wind and hydropower over the past two decades. This study examines renewable energy adoption and carbon emission trends among major economies between 2000 and 2020. The analysis uses a global sustainable energy dataset containing information for 176 countries over a twenty-one-year period. Key variables include renewable energy share in total energy consumption, electricity generation from renewable and fossil fuel sources, low-carbon electricity production and carbon dioxide emissions. These indicators are used to assess how countries have progressed towards cleaner energy systems. The research question guiding this study is how renewable energy adoption levels and carbon dioxide emissions have changed among major economies between 2000 and 2020. By comparing trends across time and countries, the study aims to identify patterns in the relationship between energy transition and environmental outcomes.
+
+
+
 # Methodology
 
 # Results
