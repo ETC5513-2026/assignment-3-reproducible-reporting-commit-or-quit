@@ -31,9 +31,9 @@ editor: visual
 
 # Executive Summary
 
-This study examines renewable energy adoption and carbon emission trends in the United States, China, India, and Australia from 2000 to 2020 using data from the Global Sustainable Energy dataset. Through trend visualisations and comparative analysis, the study explores how renewable energy use has evolved across these major economies and how these changes relate to carbon emission patterns.
+This study investigates renewable energy adoption and carbon emission trends in the United States, China, India, and Australia between 2000 and 2020 using data from the Global Sustainable Energy dataset. Through comparative analysis and trend visualisations, the report examines how the transition towards renewable energy has progressed across these major economies and whether these changes have been accompanied by shifts in carbon emission levels.
 
-The findings indicate that growth in renewable energy adoption was not consistently associated with lower carbon emissions. In particular, China and India experienced substantial increases in renewable energy use while carbon emissions continued to rise, highlighting the influence of economic growth and increasing energy demand.
+The results suggest that increasing renewable energy use does not automatically lead to lower carbon emissions. While all four countries expanded their use of renewable energy over the study period, the outcomes varied considerably. In China and India, carbon emissions continued to rise despite substantial growth in renewable energy adoption, reflecting the combined effects of rapid economic expansion, growing populations, and increasing energy demand. These findings highlight the importance of complementing renewable energy investments with broader strategies aimed at reducing overall reliance on fossil fuels.
 
 
 # Introduction
