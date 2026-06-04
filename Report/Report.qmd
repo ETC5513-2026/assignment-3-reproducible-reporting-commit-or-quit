@@ -40,7 +40,7 @@ The results suggest that increasing renewable energy use does not automatically 
 
 The transition towards renewable energy has become an important strategy for addressing climate change and reducing greenhouse gas emissions [@iea2024]. This study examines renewable energy adoption and carbon emission trends across major economies between 2000 and 2020. As concerns about climate change continue to grow, many countries have increased investment in renewable energy sources such as wind, solar, and hydropower to reduce reliance on fossil fuels. Understanding whether greater renewable energy adoption is associated with lower carbon emissions can provide valuable insights for energy and environmental policy.
 
-The analysis uses a global sustainable energy dataset covering 176 countries over the period 2000–2020. Key variables include renewable energy share in total energy consumption, electricity generation from renewable and fossil fuel sources, low-carbon electricity production, carbon dioxide (CO₂) emissions, and GDP per capita. The research question guiding this study is: *How have renewable energy adoption levels and carbon emissions changed among major economies between 2000 and 2020?* By comparing trends over time, this study aims to explore the relationship between renewable energy growth and carbon emissions and identify differences in energy transition patterns across countries.
+The analysis uses a global sustainable energy dataset covering 176 countries over the period 2000–2020. Key variables include renewable energy share in total energy consumption, electricity generation from renewable and fossil fuel sources, low-carbon electricity production, and carbon dioxide (CO₂) emissions. The research question guiding this study is: *How have renewable energy adoption levels and carbon emissions changed among major economies between 2000 and 2020?* By comparing trends over time, this study aims to explore the relationship between renewable energy growth and carbon emissions and identify differences in energy transition patterns across countries.
 
 
 # Methodology
@@ -71,6 +71,7 @@ The analysis focused on renewable energy share in total final energy consumption
 Comparative trend analysis was performed using visualisations created with `ggplot2`. Renewable energy adoption and CO₂ emission trends were examined across the selected countries between 2000 and 2020. Additional comparative visualisations were created to explore differences in renewable energy adoption and emission levels among the selected economies.
 
 # Results
+
 @fig-co2-trend shows that carbon dioxide emissions in these four economies changed significantly between 2000 and 2020. China saw the most rapid growth, with emissions rising from approximately 3.3 million kt to over 10 million kt. The United States, meanwhile, showed a gradual decline, falling from about 5.9 million metric tons to 4.8 million metric tons. India’s emissions grew steadily, while Australia’s remained at a relatively low and stable level.
 
 ```{r}
@@ -88,7 +89,7 @@ Data from @fig-renewable-trend shows that India consistently had the highest sha
 knitr::include_graphics(here::here("Figures/renewable_trend.png"))
 ```
 
-As shown in Figures @fig-scatter and @fig-facet, the increase in the share of renewable energy in 2019 did not always correspond to a reduction in emissions, suggesting that economic scale has a greater impact on a country’s emission levels than the adoption of renewable energy.
+As shown in Figures @fig-scatter and @fig-facet, countries with higher renewable energy shares in 2019 did not necessarily record lower CO₂ emission levels.
 
 ```{r}
 #| label: fig-scatter
@@ -112,20 +113,20 @@ knitr::include_graphics(here::here("Figures/facet_2019.png"))
 
 The results show that the share of renewable energy and carbon emissions do not always move in the same direction. As shown in @fig-renewable-trend, India had the highest share of renewable energy in 2019, but @fig-co2-trend shows that its CO2 emissions continued to rise during the study period. China’s share of renewable energy rebounded after 2012, yet it remained the country with the highest CO2 emissions among the four. In contrast, CO2 emissions in the United States declined overall, while Australia’s emissions were lower and relatively stable.
 
-The 2019 comparison in @fig-facet and @fig-scatter also supports this pattern. India had the highest renewable energy share, but China had the highest CO2 emissions. Australia and the United States had similar renewable energy shares in 2019, but their CO2 emission levels were very different. This indicates that carbon emissions are not solely influenced by the share of renewable energy.
+The 2019 comparison in @fig-facet and @fig-scatter also supports this pattern. India had the highest renewable energy share, but China had the highest CO2 emissions. Australia and the United States had similar renewable energy shares in 2019, but their CO2 emission levels were very different. This indicates that carbon emissions are not solely influenced by the share of renewable energy. The comparison suggests that factors such as economic scale, industrial activity, and overall energy demand may have a substantial influence on emission levels alongside renewable energy adoption.
 
 A country’s size, population, industrial activity, economic growth, and reliance on fossil fuels all affect total emissions. For example, China and India have large populations and high energy demand, so emissions may continue to rise even as renewable energy use increases. The situations in the United States and Australia also demonstrate that a country’s energy mix and economic scale influence emission trends.
 
 ## Recommendations
-Based on these findings, major economies should continue to invest in renewable energy infrastructure, such as solar, wind, and hydroelectric power. Governments should also improve grid infrastructure and energy storage systems to enable the more stable and widespread use of renewable energy.
 
-Finally, renewable energy policies should be integrated with broader low-carbon policies, particularly in high-emission sectors such as power generation, transportation, and heavy industry. This is because simply increasing the use of renewable energy may not be sufficient to significantly reduce total CO2 emissions.
+Based on these findings, major economies should continue to invest in renewable energy infrastructure, such as solar, wind, and hydroelectric power. Governments should also improve grid infrastructure and energy storage systems to enable the more stable and widespread use of renewable energy [@un2024].
+
+Finally, renewable energy policies should be integrated with broader low-carbon policies, particularly in high-emission sectors such as power generation, transportation, and heavy industry. This is because simply increasing the use of renewable energy may not be sufficient to significantly reduce total CO2 emissions [@worldbank2024].
 
 ## Conclusion
-Overall, this project demonstrates that the adoption of renewable energy is a key factor in reducing carbon emissions, but it cannot fully explain carbon emission trends on its own.
+
+Overall, this study shows that renewable energy adoption and carbon emission trends do not always move in the same direction across major economies.
 
 A comparison among China, India, the United States, and Australia reveals that each country has distinct energy and economic contexts. This indicates that carbon emissions are also influenced by total energy demand, fossil fuel use, population size, and industrial activity.
 
 Therefore, one cannot rely solely on the share of renewable energy to understand carbon emissions. A more comprehensive analysis must consider both the adoption of renewable energy and the broader conditions underlying each country.
-
-# References
