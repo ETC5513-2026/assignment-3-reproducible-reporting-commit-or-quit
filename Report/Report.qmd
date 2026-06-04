@@ -1,22 +1,47 @@
 ---
 title: "Global Sustainable Energy Trends (2000–2020)"
+
 author:
-- Shakshi Shah
-- Annamalai Vikash Raam Manoj
-- Siyuan Yin
-- Xuanning Zhang
+  - Shakshi Shah
+  - Annamalai Vikash Raam Manoj
+  - Siyuan Yin
+  - Xuanning Zhang
+
+date: last-modified
+
+bibliography: references.bib
+
 format:
-  html: default
-  pdf: default
+  html:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    code-fold: true
+    code-tools: true
+    smooth-scroll: true
+    theme: cosmo
+
 execute:
   echo: false
   warning: false
   message: false
+
+editor: visual
 ---
 
 # Executive Summary
 
+This study investigates renewable energy adoption and carbon emission trends in the United States, China, India, and Australia between 2000 and 2020 using data from the Global Sustainable Energy dataset. Through comparative analysis and trend visualisations, the report examines how the transition towards renewable energy has progressed across these major economies and whether these changes have been accompanied by shifts in carbon emission levels.
+
+The results suggest that increasing renewable energy use does not automatically lead to lower carbon emissions. While all four countries expanded their use of renewable energy over the study period, the outcomes varied considerably. In China and India, carbon emissions continued to rise despite substantial growth in renewable energy adoption, reflecting the combined effects of rapid economic expansion, growing populations, and increasing energy demand. These findings highlight the importance of complementing renewable energy investments with broader strategies aimed at reducing overall reliance on fossil fuels.
+
+
 # Introduction
+
+The transition towards renewable energy has become an important strategy for addressing climate change and reducing greenhouse gas emissions [@iea2024]. This study examines renewable energy adoption and carbon emission trends across major economies between 2000 and 2020. As concerns about climate change continue to grow, many countries have increased investment in renewable energy sources such as wind, solar, and hydropower to reduce reliance on fossil fuels. Understanding whether greater renewable energy adoption is associated with lower carbon emissions can provide valuable insights for energy and environmental policy.
+
+The analysis uses a global sustainable energy dataset covering 176 countries over the period 2000–2020. Key variables include renewable energy share in total energy consumption, electricity generation from renewable and fossil fuel sources, low-carbon electricity production, carbon dioxide (CO₂) emissions, and GDP per capita. The research question guiding this study is: *How have renewable energy adoption levels and carbon emissions changed among major economies between 2000 and 2020?* By comparing trends over time, this study aims to explore the relationship between renewable energy growth and carbon emissions and identify differences in energy transition patterns across countries.
+
 
 # Methodology
 
