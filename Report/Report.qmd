@@ -5,13 +5,24 @@ author:
 - Annamalai Vikash Raam Manoj
 - Siyuan Yin
 - Xuanning Zhang
+date: last-modified
+
 format:
-  html: default
-  pdf: default
+html:
+toc: true
+toc-depth: 3
+number-sections: true
+code-fold: true
+code-tools: true
+smooth-scroll: true
+theme: cosmo
+
 execute:
-  echo: false
-  warning: false
-  message: false
+echo: false
+warning: false
+message: false
+
+editor: visual
 ---
 
 # Executive Summary
