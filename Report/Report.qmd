@@ -9,7 +9,7 @@ author:
 
 date: last-modified
 
-bibliography: references.bib
+bibliography: ../references.bib
 
 format:
   html:

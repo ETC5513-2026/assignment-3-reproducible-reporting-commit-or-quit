@@ -3,3 +3,4 @@
 .Ruserdata
 .quarto/
 *_files/
+Report/*.html
