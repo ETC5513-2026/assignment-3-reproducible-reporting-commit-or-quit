@@ -108,4 +108,24 @@ knitr::include_graphics(here::here("Figures/facet_2019.png"))
 
 # Discussion and Recommendations
 
+## Discussion
+
+The results show that the share of renewable energy and carbon emissions do not always move in the same direction. As shown in @fig-renewable-trend, India had the highest share of renewable energy in 2019, but @fig-co2-trend shows that its CO2 emissions continued to rise during the study period. China’s share of renewable energy rebounded after 2012, yet it remained the country with the highest CO2 emissions among the four. In contrast, CO2 emissions in the United States declined overall, while Australia’s emissions were lower and relatively stable.
+
+The 2019 comparison in @fig-facet and @fig-scatter also supports this pattern. India had the highest renewable energy share, but China had the highest CO2 emissions. Australia and the United States had similar renewable energy shares in 2019, but their CO2 emission levels were very different. This indicates that carbon emissions are not solely influenced by the share of renewable energy.
+
+A country’s size, population, industrial activity, economic growth, and reliance on fossil fuels all affect total emissions. For example, China and India have large populations and high energy demand, so emissions may continue to rise even as renewable energy use increases. The situations in the United States and Australia also demonstrate that a country’s energy mix and economic scale influence emission trends.
+
+## Recommendations
+Based on these findings, major economies should continue to invest in renewable energy infrastructure, such as solar, wind, and hydroelectric power. Governments should also improve grid infrastructure and energy storage systems to enable the more stable and widespread use of renewable energy.
+
+Finally, renewable energy policies should be integrated with broader low-carbon policies, particularly in high-emission sectors such as power generation, transportation, and heavy industry. This is because simply increasing the use of renewable energy may not be sufficient to significantly reduce total CO2 emissions.
+
+## Conclusion
+Overall, this project demonstrates that the adoption of renewable energy is a key factor in reducing carbon emissions, but it cannot fully explain carbon emission trends on its own.
+
+A comparison among China, India, the United States, and Australia reveals that each country has distinct energy and economic contexts. This indicates that carbon emissions are also influenced by total energy demand, fossil fuel use, population size, and industrial activity.
+
+Therefore, one cannot rely solely on the share of renewable energy to understand carbon emissions. A more comprehensive analysis must consider both the adoption of renewable energy and the broader conditions underlying each country.
+
 # References
