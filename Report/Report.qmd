@@ -9,6 +9,8 @@ author:
 
 date: last-modified
 
+bibliography: references.bib
+
 format:
   html:
     toc: true
