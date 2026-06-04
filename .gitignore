@@ -4,3 +4,5 @@
 .quarto/
 *_files/
 Report/*.html
+Report/*_files/
+**/.DS_Store
