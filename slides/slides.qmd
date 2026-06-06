@@ -8,7 +8,7 @@ author:
   - Xuanning Zhang
 format:
   revealjs:
-    theme: simple
+    theme: moon
     slide-number: true
     transition: fade
     incremental: false
@@ -73,27 +73,11 @@ How did renewable energy adoption and carbon emissions change across these major
 
 ---
 
-## Results: CO2 Emissions Trend {.smaller}
+## Results: CO₂ Emissions Trend {.smaller}
 
-```{r}
-# CODE FRAMEWORK ONLY
-# Replace CO2_EMISSIONS_VARIABLE with the correct CO2 emissions column name.
+![CO₂ emission trend from 2000 to 2024 in 4 main countries](../Figures/co2_trend.png){fig-align="center"}
 
-# ggplot(energy_analysis,
-#        aes(x = year,
-#            y = CO2_EMISSIONS_VARIABLE,
-#            colour = entity)) +
-#   geom_line() +
-#   labs(
-#     title = "CO2 Emissions Trends in Selected Economies",
-#     x = "Year",
-#     y = "CO2 Emissions (kt)",
-#     colour = "Country"
-#   ) +
-#   theme_minimal()
-```
-
-- China had the highest CO2 emissions
+- China had the highest CO₂ emissions
 - India’s emissions increased over time
 - United States emissions declined overall
 - Australia remained low and stable
@@ -102,23 +86,7 @@ How did renewable energy adoption and carbon emissions change across these major
 
 ## Results: Renewable Energy Trend {.smaller}
 
-```{r}
-# CODE FRAMEWORK ONLY
-# Replace RENEWABLE_ENERGY_SHARE_VARIABLE with the correct renewable energy column name.
-
-# ggplot(energy_analysis,
-#        aes(x = year,
-#            y = RENEWABLE_ENERGY_SHARE_VARIABLE,
-#            colour = entity)) +
-#   geom_line() +
-#   labs(
-#     title = "Renewable Energy Adoption Trends",
-#     x = "Year",
-#     y = "Renewable Energy Share (%)",
-#     colour = "Country"
-#   ) +
-#   theme_minimal()
-```
+![Trend of renewable energy in 4 main countries via 2000 to 2024](../Figures/renewable_trend.png){fig-align="center"}
 
 - India had the highest renewable energy share
 - China declined first, then recovered slightly after 2012
@@ -128,26 +96,7 @@ How did renewable energy adoption and carbon emissions change across these major
 
 ## Results: 2019 Comparison {.smaller}
 
-```{r}
-# CODE FRAMEWORK ONLY
-# This section should compare renewable energy share and CO2 emissions in 2019.
-
-# energy_2019 <- energy_analysis |>
-#   filter(year == 2019)
-
-# ggplot(energy_2019,
-#        aes(x = RENEWABLE_ENERGY_SHARE_VARIABLE,
-#            y = CO2_EMISSIONS_VARIABLE,
-#            label = entity)) +
-#   geom_point() +
-#   geom_text() +
-#   labs(
-#     title = "Renewable Energy Share and CO2 Emissions in 2019",
-#     x = "Renewable Energy Share (%)",
-#     y = "CO2 Emissions (kt)"
-#   ) +
-#   theme_minimal()
-```
+![Facet plot of CO₂ emmission VS renewable energy share](../Figures/facet_2019.png){fig-align="center"}
 
 - India had the highest renewable energy share
 - China had the highest CO2 emissions
