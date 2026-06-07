@@ -26,67 +26,68 @@ execute:
 - Countries: China, India, United States, Australia
 
 ::: fragment
+
 **Research question:**  
 How did renewable energy adoption and carbon emissions change across these major economies?
+
+The project investigates how different approaches to energy transition have shaped carbon emission patterns over the past two decades. Renewable energy adoption increased across all four countries, but higher renewable energy use did not always result in lower carbon emissions.
+
 :::
 
 ---
 
 ## Dataset Description {.smaller}
 
-- Source: Global Sustainable Energy dataset
-- Coverage: 176 countries from 2000 to 2020
-- Focus: four selected major economies
-- Key variables:
-  - Renewable energy share (%)
-  - CO2 emissions (kt)
+* *Source:* Global Sustainable Energy Dataset
+* *Coverage:* 176 countries (2000–2020)
+* *Observations:* 3,649 country-year records
+* *Key Variables:*
+
+  * Renewable energy share (% of total energy consumption)
+  * CO₂ emissions (kt)
+
+Why these variables?
+
+* Renewable energy share → energy transition
+* CO₂ emissions → environmental impact
+* Together, they reveal how energy transitions affect emissions.
 
 ---
 
 ## Methodology {.smaller}
 
-- Cleaned and prepared the dataset in R
-- Standardised column names
-- Filtered the four selected countries
-- Selected renewable energy and CO2 emission variables
-- Used 2019 for comparison due to missing 2020 observations
-- Created trend and comparison visualisations using `ggplot2`
-:::
+- Dataset
+  - Global Sustainable Energy Dataset
 
-```{r}
-# CODE FRAMEWORK ONLY
-# This section shows where the data preparation code should go.
+- Countries
+  - Australia, China, India, United States
 
-# Load packages
-# library(tidyverse)
+- Variables
+  - Renewable energy share (%)
+  - CO₂ emissions (kt)
 
-# Load cleaned data
-# energy_analysis <- read_csv("../Data/energy_analysis.csv")
-
-# Check variable names
-# names(energy_analysis)
-
-# Filter selected countries if needed
-# energy_analysis <- energy_analysis |>
-#   filter(entity %in% c("China", "India", "United States", "Australia"))
-```
+- Analysis
+  - Data cleaning in R
+  - Trend analysis (2000–2020)
+  - 2019 comparison visualisations
 
 ---
 
 ## Results: CO₂ Emissions Trend {.smaller}
 
-![CO₂ emission trend from 2000 to 2024 in 4 main countries](../Figures/co2_trend.png){fig-align="center"}
+![](../Figures/co2_trend.png){fig-align="center" width="75%"}
 
-- China had the highest CO₂ emissions
-- India’s emissions increased over time
-- United States emissions declined overall
-- Australia remained low and stable
+* China experienced the largest increase in CO₂ emissions
+* India’s emissions increased steadily over the study period
+* United States emissions showed an overall decline
+* Australia maintained comparatively low and stable emission levels
+
 
 ---
 
 ## Results: Renewable Energy Trend {.smaller}
 
-![Trend of renewable energy in 4 main countries via 2000 to 2024](../Figures/renewable_trend.png){fig-align="center"}
+![](../Figures/renewable_trend.png){fig-align="center"}
 
 - India had the highest renewable energy share
 - China declined first, then recovered slightly after 2012
@@ -128,12 +129,11 @@ How did renewable energy adoption and carbon emissions change across these major
   - transport
   - heavy industry
 
-
 ---
 
 ## Conclusion {.smaller}
 
-- Renewable energy adoption is important
-- But it does not explain emissions by itself
+- Renewable energy adoption and carbon emissions do not always move in the same direction
+- Carbon emissions are influenced by multiple factors beyond renewable energy use
 - Each country has a different energy and economic context
 - A complete analysis should consider renewable energy, fossil fuel use, energy demand, and national differences

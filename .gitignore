@@ -6,3 +6,5 @@
 Report/*.html
 Report/*_files/
 **/.DS_Store
+renv/library/
+Slides/*.html
