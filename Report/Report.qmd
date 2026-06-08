@@ -122,6 +122,7 @@ The 2019 comparison in @fig-facet and @fig-scatter also supports this pattern. I
 
 A country’s size, population, industrial activity, economic growth, and reliance on fossil fuels all affect total emissions. For example, China and India have large populations and high energy demand, so emissions may continue to rise even as renewable energy use increases. The situations in the United States and Australia also demonstrate that a country’s energy mix and economic scale influence emission trends.
 
+<<<<<<< HEAD
 ## Recommendations
 
 Based on these findings, major economies should continue to invest in renewable energy infrastructure, such as solar, wind, and hydroelectric power. Governments should also improve grid infrastructure and energy storage systems to enable the more stable and widespread use of renewable energy [@un2024].
@@ -135,3 +136,18 @@ Overall, this study shows that renewable energy adoption and carbon emission tre
 A comparison among China, India, the United States, and Australia reveals that each country has distinct energy and economic contexts. This indicates that carbon emissions are also influenced by total energy demand, fossil fuel use, population size, and industrial activity.
 
 Therefore, one cannot rely solely on the share of renewable energy to understand carbon emissions. A more comprehensive analysis must consider both the adoption of renewable energy and the broader conditions underlying each country.
+=======
+
+## Recommendations
+Based on these findings, major economies should continue to invest in renewable energy infrastructure, such as solar, wind, and hydroelectric power. Governments should also improve grid infrastructure and energy storage systems to enable the more stable and widespread use of renewable energy [@un2024].
+
+Finally, renewable energy policies should be integrated with broader low-carbon policies, particularly in high-emission sectors such as power generation, transportation, and heavy industry. This is because simply increasing the use of renewable energy may not be sufficient to significantly reduce total CO2 emissions [@worldbank2024].
+
+
+## Conclusion
+Overall, this study suggests that higher renewable energy adoption does not always result in lower carbon emissions. The comparison of China, India, the United States, and Australia shows that emission trends are shaped by each country’s wider economic and energy context.
+
+Factors such as total energy demand, fossil fuel dependence, population size, and industrial activity also play an important role. Therefore, renewable energy share should not be considered on its own. A more complete understanding of carbon emissions requires looking at both renewable energy adoption and the broader conditions behind each country’s energy system.
+
+# References
+>>>>>>> feature/discussion
