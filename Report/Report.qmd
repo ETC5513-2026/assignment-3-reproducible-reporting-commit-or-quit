@@ -35,24 +35,22 @@ This study investigates renewable energy adoption and carbon emission trends in 
 
 The results suggest that increasing renewable energy use does not automatically lead to lower carbon emissions. While all four countries expanded their use of renewable energy over the study period, the outcomes varied considerably. In China and India, carbon emissions continued to rise despite substantial growth in renewable energy adoption, reflecting the combined effects of rapid economic expansion, growing populations, and increasing energy demand. These findings highlight the importance of complementing renewable energy investments with broader strategies aimed at reducing overall reliance on fossil fuels.
 
-
 # Introduction
 
 The transition towards renewable energy has become an important strategy for addressing climate change and reducing greenhouse gas emissions [@iea2024]. This study examines renewable energy adoption and carbon emission trends across major economies between 2000 and 2020. As concerns about climate change continue to grow, many countries have increased investment in renewable energy sources such as wind, solar, and hydropower to reduce reliance on fossil fuels. Understanding whether greater renewable energy adoption is associated with lower carbon emissions can provide valuable insights for energy and environmental policy.
 
 The analysis uses a global sustainable energy dataset covering 176 countries over the period 2000–2020. Key variables include renewable energy share in total energy consumption, electricity generation from renewable and fossil fuel sources, low-carbon electricity production, carbon dioxide (CO₂) emissions, and GDP per capita. The research question guiding this study is: *How have renewable energy adoption levels and carbon emissions changed among major economies between 2000 and 2020?* By comparing trends over time, this study aims to explore the relationship between renewable energy growth and carbon emissions and identify differences in energy transition patterns across countries.
 
-
 # Methodology
 
 The variables selected for the analysis are summarised in @tbl-vars.
 
 | Variable | Type | Purpose |
-|-----------|-----------|-----------|
+|------------------------|------------------------|------------------------|
 | Renewable energy share in total final energy consumption (%) | Percentage (%) | Measures renewable energy adoption |
 | CO₂ emissions | Kilotonnes (kt) | Measures carbon emission levels |
 
-Table: Key variables used in the analysis. {#tbl-vars}
+: Key variables used in the analysis. {#tbl-vars}
 
 The analytical workflow used in this study is illustrated in @fig-workflow.
 
@@ -71,6 +69,7 @@ The analysis focused on renewable energy share in total final energy consumption
 Comparative trend analysis was performed using visualisations created with `ggplot2`. Renewable energy adoption and CO₂ emission trends were examined across the selected countries between 2000 and 2020. Additional comparative visualisations were created to explore differences in renewable energy adoption and emission levels among the selected economies.
 
 # Results
+
 @fig-co2-trend shows that carbon dioxide emissions in these four economies changed significantly between 2000 and 2020. China saw the most rapid growth, with emissions rising from approximately 3.3 million kt to over 10 million kt. The United States, meanwhile, showed a gradual decline, falling from about 5.9 million metric tons to 4.8 million metric tons. India’s emissions grew steadily, while Australia’s remained at a relatively low and stable level.
 
 ```{r}
@@ -80,7 +79,8 @@ Comparative trend analysis was performed using visualisations created with `ggpl
 knitr::include_graphics(here::here("Figures/co2_trend.png"))
 ```
 
-Data from @fig-renewable-trend shows that India consistently had the highest share of renewable energy throughout the study period, though this share declined from 47% in 2000 to 33% in 2019. China’s share of renewable energy initially fell sharply but then rebounded slightly, while Australia and the United States saw a modest increase to around 10%.
+Data from @fig-renewable-trend shows that India consistently had the highest share of renewable energy throughout the study period, though this share declined from 47% in 2000 to 33% in 2019. Despite this decline, India remained far ahead of the other three countries via the period. Due to the rapid growth of fossil fuel consumption, China's share of renewable energy has sharply decreased from 29% to 11% in 2000s. After 2010, the share stabilized and rebounded slightly and reached 15%.
+
 ```{r}
 #| label: fig-renewable-trend
 #| fig-cap: "Renewable Energy Adoption Trends in Selected Economies (2000–2020)"
@@ -103,8 +103,6 @@ knitr::include_graphics(here::here("Figures/scatter_2019.png"))
 #| echo: false
 knitr::include_graphics(here::here("Figures/facet_2019.png"))
 ```
-
-
 
 # Discussion and Recommendations
 
