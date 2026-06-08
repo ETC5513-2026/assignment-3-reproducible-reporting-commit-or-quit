@@ -21,6 +21,11 @@ format:
     smooth-scroll: true
     theme: cosmo
 
+  pdf:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+
 execute:
   echo: false
   warning: false
